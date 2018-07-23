@@ -14,7 +14,6 @@ logging.basicConfig()
 
 
 class Client(object):
-4
     def __init__(self, api_key=None, timeout=None, lang=None):
 
         self.api_key = api_key
